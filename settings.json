@@ -1,7 +1,8 @@
 {
-  "openPhases" : ["phaseBugReporting", "phaseTeamResponse", "phaseTesterResponse", "phaseModeration"],
+  "openPhases" : ["phaseBugReporting", "phaseBugTrimming", "phaseTeamResponse", "phaseTesterResponse", "phaseModeration"],
   "phaseBugReporting": "bugreporting",
+  "phaseBugTrimming": "bugreporting",
   "phaseTeamResponse": "pe-results",
-  "phaseTesterResponse": "pe",
+  "phaseTesterResponse": "bugreporting",
   "phaseModeration": "pe-evaluation"
 }
